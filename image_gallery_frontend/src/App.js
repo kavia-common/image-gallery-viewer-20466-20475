@@ -11,7 +11,9 @@ const attachments = [
   { file: '20250915_075013_random.jpg', title: 'Random Scenic', alt: 'Random scenic photograph', categories: ['Nature'] },
   { file: '20250915_075617_picasso_pablo_1.jpg', title: 'Picasso Sketch', alt: 'Sketch by Picasso', categories: ['Art', 'Sketch'] },
   { file: '20250915_075635_250px-Le_Gourmet.jpg', title: 'Le Gourmet', alt: 'Le Gourmet painting', categories: ['Art', 'Painting'] },
-  { file: '20250915_075645_girl-with-mandolin.jpg', title: 'Girl with Mandolin', alt: 'Girl with Mandolin painting', categories: ['Art', 'Portrait'] }
+  { file: '20250915_075645_girl-with-mandolin.jpg', title: 'Girl with Mandolin', alt: 'Girl with Mandolin painting', categories: ['Art', 'Portrait'] },
+  // Newly added image to Ocean Gallery
+  { file: '20250915_093951_picasso_pablo_1.jpg', title: 'Picasso Study II', alt: 'Study by Pablo Picasso', categories: ['Art', 'Sketch'] }
 ];
 
 // PUBLIC_INTERFACE
