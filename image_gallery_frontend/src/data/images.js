@@ -330,18 +330,6 @@ export const images = [
     title: "Cathedral at Dusk"
   },
 
-  {
-    id: "arc-07",
-    src: "https://images.unsplash.com/photo-1524293581273-7992db9f2253?q=80&w=1600&auto=format&fit=crop",
-    alt: "Sydney Opera House at dusk with vibrant sky",
-    category: "Architecture",
-    tags: ["opera house", "sydney", "landmark", "dusk"],
-    author: "Dan Freeman",
-    srcLink: "https://unsplash.com/photos/iI9w5IROLLA",
-    width: 1600,
-    height: 1067,
-    title: "Sydney Opera House at Dusk"
-  },
 
   // Picasso category (local assets via imports)
   {
