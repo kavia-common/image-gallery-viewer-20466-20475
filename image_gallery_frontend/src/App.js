@@ -4,6 +4,7 @@ import imagesData, { CATEGORIES } from "./data/images";
 import SearchBar from "./components/SearchBar.jsx";
 import GalleryGrid from "./components/GalleryGrid.jsx";
 import LightboxModal from "./components/LightboxModal.jsx";
+import LogoImg from "./assets/logo.jpg";
 
 // PUBLIC_INTERFACE
 function App() {
@@ -83,9 +84,24 @@ function App() {
     <div className="App">
       <header className="app-header ocean-gradient">
         <div className="container header-inner">
-          <div className="branding">
-            <h1 className="app-title">Ocean Gallery</h1>
-            <p className="app-subtitle">Explore images across categories</p>
+          <div className="branding" style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            <img
+              src={LogoImg}
+              alt="Ocean Gallery logo"
+              style={{
+                height: 36,
+                width: 36,
+                objectFit: "cover",
+                borderRadius: 8,
+                border: "1px solid var(--border)",
+                boxShadow: "var(--shadow-1)",
+                background: "var(--surface)"
+              }}
+            />
+            <div>
+              <h1 className="app-title">Ocean Gallery</h1>
+              <p className="app-subtitle">Explore images across categories</p>
+            </div>
           </div>
           <div className="header-actions">
             <div className="filters">
