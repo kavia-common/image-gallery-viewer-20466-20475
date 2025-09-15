@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Ocean Gallery header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByText(/Ocean Gallery/i)).toBeInTheDocument();
+});
+
+test('search input exists and filters empty state', () => {
+  render(<App />);
+  const input = screen.getByLabelText(/Search images/i);
+  expect(input).toBeInTheDocument();
+  fireEvent.change(input, { target: { value: 'zzzz-not-found' } });
+  expect(screen.getByText(/No images match/)).toBeInTheDocument();
 });
