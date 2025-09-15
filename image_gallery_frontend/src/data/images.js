@@ -197,6 +197,68 @@ export const images = [
     width: 1600,
     height: 1067
   },
+
+  // Additional People images for gallery diversity
+  {
+    id: "peo-05",
+    src: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1600&auto=format&fit=crop",
+    alt: "Portrait of a smiling child with curly hair indoors",
+    category: "People",
+    tags: ["child", "smile", "curly hair", "portrait", "indoor"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/G9i_plbfDgk",
+    width: 1600,
+    height: 1067,
+    title: "Smiling Child"
+  },
+  {
+    id: "peo-06",
+    src: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?q=80&w=1600&auto=format&fit=crop",
+    alt: "Elderly man with white beard wearing a blue cap",
+    category: "People",
+    tags: ["elderly", "beard", "cap", "portrait", "wisdom"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/mEZ3PoFGs_k",
+    width: 1600,
+    height: 1067,
+    title: "Elderly Man in Cap"
+  },
+  {
+    id: "peo-07",
+    src: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1600&auto=format&fit=crop",
+    alt: "Young couple laughing in a sunlit field",
+    category: "People",
+    tags: ["couple", "outdoor", "sunlight", "love", "laughter"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/-oWyJoSqBRM",
+    width: 1600,
+    height: 1067,
+    title: "Laughing Couple Outdoors"
+  },
+  {
+    id: "peo-08",
+    src: "https://images.unsplash.com/photo-1519340333755-c7d7b4a9df77?q=80&w=1600&auto=format&fit=crop",
+    alt: "Group of friends walking together down a city street",
+    category: "People",
+    tags: ["friends", "group", "city", "urban", "together"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/mNGaaLeWEp0",
+    width: 1600,
+    height: 1067,
+    title: "Friends in the City"
+  },
+  {
+    id: "peo-09",
+    src: "https://images.unsplash.com/photo-1465101178521-c1a9136a3c74?q=80&w=1600&auto=format&fit=crop",
+    alt: "Woman in traditional Japanese kimono standing in a forest",
+    category: "People",
+    tags: ["kimono", "Japanese", "traditional", "forest", "culture"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/GYumuBnTqKc",
+    width: 1600,
+    height: 1067,
+    title: "Woman in Kimono"
+  },
   {
     id: "abs-04",
     src: "https://images.unsplash.com/photo-1520975954732-35dd22f7e22c?q=80&w=1600&auto=format&fit=crop",
