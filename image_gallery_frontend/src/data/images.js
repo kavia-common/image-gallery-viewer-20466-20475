@@ -7,7 +7,15 @@
  * This module exports an array of image objects to be used by the gallery.
  * Each image has: id, src, alt, category, tags, author, srcLink, width, height.
  * URLs are sourced from Unsplash demo-friendly images.
+ *
+ * For local assets (e.g., Picasso set), we must use static imports so CRA/Webpack
+ * can fingerprint and serve them from the build. Do NOT use absolute "/src/..." paths.
  */
+
+// Local asset imports (Picasso)
+import PICASSO_1 from "../assets/20250915_075617_picasso_pablo_1.jpg";
+import PICASSO_2 from "../assets/20250915_075635_250px-Le_Gourmet.jpg";
+import PICASSO_3 from "../assets/20250915_075645_girl-with-mandolin.jpg";
 
 export const CATEGORIES = ["All", "Nature", "Architecture", "People", "Abstract", "Picasso"];
 
@@ -223,10 +231,10 @@ export const images = [
     height: 1067
   },
 
-  // Picasso category (local assets)
+  // Picasso category (local assets via imports)
   {
     id: "pic-01",
-    src: "/src/assets/20250915_075617_picasso_pablo_1.jpg",
+    src: PICASSO_1,
     alt: "Picasso Portrait sketch - expressive lines",
     category: "Picasso",
     tags: ["Picasso", "portrait", "sketch"],
@@ -236,7 +244,7 @@ export const images = [
   },
   {
     id: "pic-02",
-    src: "/src/assets/20250915_075635_250px-Le_Gourmet.jpg",
+    src: PICASSO_2,
     alt: "Picasso - Le Gourmet (The Greedy Child)",
     category: "Picasso",
     tags: ["Picasso", "painting", "classic"],
@@ -246,7 +254,7 @@ export const images = [
   },
   {
     id: "pic-03",
-    src: "/src/assets/20250915_075645_girl-with-mandolin.jpg",
+    src: PICASSO_3,
     alt: "Picasso - Girl with a Mandolin",
     category: "Picasso",
     tags: ["Picasso", "cubism", "mandolin"],
