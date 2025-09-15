@@ -335,32 +335,37 @@ export const images = [
   {
     id: "pic-01",
     src: PICASSO_1,
-    alt: "Picasso Portrait sketch - expressive lines",
+    alt: "Picasso - Blue Period Portrait",
     category: "Picasso",
-    tags: ["Picasso", "portrait", "sketch"],
+    tags: ["Picasso", "portrait", "blue period", "melancholy"],
     author: "Pablo Picasso",
     width: 1200,
-    height: 800
+    height: 800,
+    title: "Portrait from the Blue Period",
   },
   {
     id: "pic-02",
     src: PICASSO_2,
     alt: "Picasso - Le Gourmet (The Greedy Child)",
     category: "Picasso",
-    tags: ["Picasso", "painting", "classic"],
+    tags: ["Picasso", "painting", "classic", "blue period", "child"],
     author: "Pablo Picasso",
     width: 1200,
-    height: 800
+    height: 800,
+    title: "Le Gourmet (The Greedy Child)",
+    srcLink: "https://commons.wikimedia.org/wiki/File:Le_Gourmet_(The_Greedy_Child).jpg"
   },
   {
     id: "pic-03",
     src: PICASSO_3,
-    alt: "Picasso - Girl with a Mandolin",
+    alt: "Picasso - Girl with a Mandolin (1910)",
     category: "Picasso",
-    tags: ["Picasso", "cubism", "mandolin"],
+    tags: ["Picasso", "cubism", "mandolin", "portrait", "analytic cubism"],
     author: "Pablo Picasso",
     width: 1200,
-    height: 800
+    height: 800,
+    title: "Girl with a Mandolin",
+    srcLink: "https://commons.wikimedia.org/wiki/File:Pablo_Picasso,_1910,_Girl_with_a_Mandolin_(Fanny_Tellier).jpg"
   }
 ];
 
