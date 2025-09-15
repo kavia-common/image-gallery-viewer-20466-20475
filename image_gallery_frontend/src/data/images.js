@@ -317,6 +317,31 @@ export const images = [
     height: 1067
   },
 
+  {
+    id: "arc-06",
+    src: "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?q=80&w=1600&auto=format&fit=crop",
+    alt: "Historic stone cathedral illuminated at dusk",
+    category: "Architecture",
+    tags: ["cathedral", "historic", "stone", "dusk", "gothic"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/8YG31Xn4dSw",
+    width: 1600,
+    height: 1067,
+    title: "Cathedral at Dusk"
+  },
+  {
+    id: "arc-07",
+    src: "https://images.unsplash.com/photo-1526481280694-3bfa7568e8f8?q=80&w=1600&auto=format&fit=crop",
+    alt: "Colorful row of traditional Dutch canal houses reflecting in water",
+    category: "Architecture",
+    tags: ["dutch", "canal", "houses", "reflection", "colorful"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/JmuyB_LibRo",
+    width: 1600,
+    height: 1067,
+    title: "Dutch Canal Houses"
+  },
+
   // Picasso category (local assets via imports)
   {
     id: "pic-01",
