@@ -167,10 +167,10 @@ function Header({
               className="brand-logo-img"
             />
           </span>
-          <div>
-            {/* Keep accessible app name for screen readers while using the logo visually */}
-            <h1 className="title">
-              <span className="sr-only">Ocean Gallery</span>
+          <div className="brand-text">
+            {/* PUBLIC title visible alongside logo for brand recognition */}
+            <h1 className="title" aria-label="Ocean Gallery">
+              Ocean <span className="title-accent">Gallery</span>
             </h1>
             <p className="subtitle">Professional, minimal image showcase</p>
           </div>

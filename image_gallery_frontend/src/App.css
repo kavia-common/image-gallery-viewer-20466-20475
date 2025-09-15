@@ -98,13 +98,34 @@ body {
 }
 .title {
   margin: 0;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 1.2;
   letter-spacing: 0.2px;
+  font-weight: 700;
+  color: var(--ocean-text);
+}
+.title-accent {
+  color: var(--ocean-primary);
+}
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .subtitle {
   margin: 0;
   color: var(--ocean-muted);
   font-size: 12px;
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 18px;
+  }
+  .brand-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
 }
 
 .controls {
