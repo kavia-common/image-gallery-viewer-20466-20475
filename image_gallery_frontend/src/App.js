@@ -13,7 +13,9 @@ const attachments = [
   { file: '20250915_075635_250px-Le_Gourmet.jpg', title: 'Le Gourmet', alt: 'Le Gourmet painting', categories: ['Art', 'Painting'] },
   { file: '20250915_075645_girl-with-mandolin.jpg', title: 'Girl with Mandolin', alt: 'Girl with Mandolin painting', categories: ['Art', 'Portrait'] },
   // Newly added image to Ocean Gallery
-  { file: '20250915_093951_picasso_pablo_1.jpg', title: 'Picasso Study II', alt: 'Study by Pablo Picasso', categories: ['Art', 'Sketch'] }
+  { file: '20250915_093951_picasso_pablo_1.jpg', title: 'Picasso Study II', alt: 'Study by Pablo Picasso', categories: ['Art', 'Sketch'] },
+  // Added by request: new attachment placed under public/attachments
+  { file: '20250915_094602_girl-with-mandolin.jpg', title: 'Girl with Mandolin', alt: 'Portrait of a girl with a mandolin', categories: ['Art', 'Portrait'] }
 ];
 
 // PUBLIC_INTERFACE
