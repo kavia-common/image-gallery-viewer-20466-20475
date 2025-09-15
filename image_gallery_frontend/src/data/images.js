@@ -261,12 +261,12 @@ export const images = [
   },
   {
     id: "abs-04",
-    src: "https://images.unsplash.com/photo-1520975954732-35dd22f7e22c?q=80&w=1600&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Abstract blue waves and curves",
     category: "Abstract",
     tags: ["blue", "waves", "curve"],
     author: "Unsplash",
-    srcLink: "https://unsplash.com/photos/7i16pPZQOuA",
+    srcLink: "https://unsplash.com/photos/abstract-blue-waves-create-a-cool-fluid-pattern-3BgZZSApUbA",
     width: 1600,
     height: 1067
   },
