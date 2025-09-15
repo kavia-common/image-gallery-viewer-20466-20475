@@ -283,11 +283,11 @@ export const images = [
   },
   {
     id: "nat-07",
-    src: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?q=80&w=1600&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1600&auto=format&fit=crop",
     alt: "Rainforest with mist and dense, lush greenery",
     category: "Nature",
     tags: ["rainforest", "mist", "greenery", "lush"],
-    author: "Unsplash",
+    author: "v2osk",
     srcLink: "https://unsplash.com/photos/pHANr-CpbYM",
     width: 1600,
     height: 1067,
@@ -332,12 +332,12 @@ export const images = [
 
   {
     id: "arc-07",
-    src: "https://images.unsplash.com/photo-1506976785307-8732e854ad89?q=80&w=1600&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1524293581273-7992db9f2253?q=80&w=1600&auto=format&fit=crop",
     alt: "Sydney Opera House at dusk with vibrant sky",
     category: "Architecture",
     tags: ["opera house", "sydney", "landmark", "dusk"],
-    author: "Unsplash",
-    srcLink: "https://unsplash.com/photos/eoKi1q0jrQY",
+    author: "Dan Freeman",
+    srcLink: "https://unsplash.com/photos/iI9w5IROLLA",
     width: 1600,
     height: 1067,
     title: "Sydney Opera House at Dusk"
