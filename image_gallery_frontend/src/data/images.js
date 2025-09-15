@@ -329,18 +329,6 @@ export const images = [
     height: 1067,
     title: "Cathedral at Dusk"
   },
-  {
-    id: "arc-07",
-    src: "https://images.unsplash.com/photo-1526481280694-3bfa7568e8f8?auto=format&fit=crop&w=1600&q=80",
-    alt: "Colorful row of traditional Dutch canal houses reflecting in water",
-    category: "Architecture",
-    tags: ["dutch", "canal", "houses", "reflection", "colorful"],
-    author: "Unsplash",
-    srcLink: "https://unsplash.com/photos/JmuyB_LibRo",
-    width: 1600,
-    height: 1067,
-    title: "Dutch Canal Houses"
-  },
 
   // Picasso category (local assets via imports)
   {
