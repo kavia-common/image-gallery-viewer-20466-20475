@@ -282,6 +282,30 @@ export const images = [
     height: 1067
   },
   {
+    id: "nat-07",
+    src: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?q=80&w=1600&auto=format&fit=crop",
+    alt: "Rainforest with mist and dense, lush greenery",
+    category: "Nature",
+    tags: ["rainforest", "mist", "greenery", "lush"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/pHANr-CpbYM",
+    width: 1600,
+    height: 1067,
+    title: "Rainforest Mist"
+  },
+  {
+    id: "nat-08",
+    src: "https://images.unsplash.com/photo-1444065381814-865dc9da92c0?q=80&w=1600&auto=format&fit=crop",
+    alt: "Field of colorful wildflowers under a bright sky",
+    category: "Nature",
+    tags: ["wildflowers", "field", "colorful", "sky"],
+    author: "Unsplash",
+    srcLink: "https://unsplash.com/photos/dwKiHoqqxk8",
+    width: 1600,
+    height: 1067,
+    title: "Wildflowers Field"
+  },
+  {
     id: "arc-05",
     src: "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?q=80&w=1600&auto=format&fit=crop",
     alt: "Brutalist concrete building pattern",
