@@ -160,9 +160,18 @@ function Header({
     <header className="navbar ocean-surface" role="banner">
       <div className="navbar-inner">
         <div className="brand">
-          <span className="brand-logo" aria-hidden="true">🌊</span>
+          <span className="brand-logo" aria-hidden="true">
+            <img
+              src="/attachments/20250915_095338_random.jpg"
+              alt=""
+              className="brand-logo-img"
+            />
+          </span>
           <div>
-            <h1 className="title">Ocean Gallery</h1>
+            {/* Keep accessible app name for screen readers while using the logo visually */}
+            <h1 className="title">
+              <span className="sr-only">Ocean Gallery</span>
+            </h1>
             <p className="subtitle">Professional, minimal image showcase</p>
           </div>
         </div>

@@ -3,6 +3,7 @@ import App from './App';
 
 test('renders Ocean Gallery header', () => {
   render(<App />);
+  // Header should have accessible name even if visual title is replaced by a logo
   expect(screen.getByText(/Ocean Gallery/i)).toBeInTheDocument();
 });
 
