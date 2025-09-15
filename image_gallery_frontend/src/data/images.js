@@ -9,7 +9,7 @@
  * URLs are sourced from Unsplash demo-friendly images.
  */
 
-export const CATEGORIES = ["All", "Nature", "Architecture", "People", "Abstract"];
+export const CATEGORIES = ["All", "Nature", "Architecture", "People", "Abstract", "Picasso"];
 
 // PUBLIC_INTERFACE
 export const images = [
@@ -221,6 +221,38 @@ export const images = [
     srcLink: "https://unsplash.com/photos/IgUR1iX0mqM",
     width: 1600,
     height: 1067
+  },
+
+  // Picasso category (local assets)
+  {
+    id: "pic-01",
+    src: "/src/assets/20250915_075617_picasso_pablo_1.jpg",
+    alt: "Picasso Portrait sketch - expressive lines",
+    category: "Picasso",
+    tags: ["Picasso", "portrait", "sketch"],
+    author: "Pablo Picasso",
+    width: 1200,
+    height: 800
+  },
+  {
+    id: "pic-02",
+    src: "/src/assets/20250915_075635_250px-Le_Gourmet.jpg",
+    alt: "Picasso - Le Gourmet (The Greedy Child)",
+    category: "Picasso",
+    tags: ["Picasso", "painting", "classic"],
+    author: "Pablo Picasso",
+    width: 1200,
+    height: 800
+  },
+  {
+    id: "pic-03",
+    src: "/src/assets/20250915_075645_girl-with-mandolin.jpg",
+    alt: "Picasso - Girl with a Mandolin",
+    category: "Picasso",
+    tags: ["Picasso", "cubism", "mandolin"],
+    author: "Pablo Picasso",
+    width: 1200,
+    height: 800
   }
 ];
 
