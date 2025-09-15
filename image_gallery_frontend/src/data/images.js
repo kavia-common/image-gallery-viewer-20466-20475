@@ -331,7 +331,7 @@ export const images = [
   },
   {
     id: "arc-07",
-    src: "https://images.unsplash.com/photo-1526481280694-3bfa7568e8f8?q=80&w=1600&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1526481280694-3bfa7568e8f8?auto=format&fit=crop&w=1600&q=80",
     alt: "Colorful row of traditional Dutch canal houses reflecting in water",
     category: "Architecture",
     tags: ["dutch", "canal", "houses", "reflection", "colorful"],
